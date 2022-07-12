@@ -10,11 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <hero></hero>
-        <div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center '>
+        {/* <div className='flex items-center justify-center h-screen mb-12 bg-fixed bg-center '>
           <h2>Heading</h2>
           <p>Message</p>
           <h3> Book</h3>
-        </div>
+        </div> */}
       </div>
   );
 }
