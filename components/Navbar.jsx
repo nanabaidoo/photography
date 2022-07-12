@@ -4,46 +4,48 @@ import {AiOutlineMenu, AiOutlineclose} from 'react-icons/ai';
 
 const Navbar = () => {
   return (
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className='max-w-[1240px] mt-auto flex justify-between items-center p-4 text-white'>
-        <link href='/'>
-        <h1>Capture</h1>
-        </link>
-        <ul>
+    <div className='fixed  w-full z-20 ease-in duration-300 border'>
+        <div className='w-full  mt-auto flex justify-between items-center p-4 text-white'>
+        <Link href='/'>
+        <a><h1>Capture</h1></a>
+        </Link>
+        <ul className='flex gap-10 border'>
             <li>
-                <link href='/'>Home</link>
+                <Link href='/'><a>Home</a></Link>
             </li>
             <li>
-                <link href='/#galley'>Gallary</link>
+                <Link href='/#galley'><a>Gallary</a></Link>
             </li>
             <li>
-                <link href='/portfolio'>Work</link>
+                <Link href='/portfolio'><a>Work</a></Link>
             </li>
             <li>
-                <link href='/contact'>contact</link>
+                <Link href='/contact'><a>contact</a></Link>
             </li>
         </ul>
+        </div>
         {/* Mobile version*/}
         <div>
             <AiOutlineMenu size={20} />
         </div>
         {/* Mobile Menu*/}
-        <div>
+        <div className='block bg-slate-500 border lg:hidden  '>
         <ul>
             <li>
-                <link href='/'>Home</link>
+                <Link href='/'><a>Home</a></Link>
             </li>
             <li>
-                <link href='/#galley'>Gallary</link>
+                <Link href='/#galley'><a>Gallary</a></Link>
             </li>
             <li>
-                <link href='/portfolio'>Work</link>
+                <Link href='/portfolio'><a>Work</a></Link>
             </li>
             <li>
-                <link href='/contact'>contact</link>
+                <Link href='/contact'><a>contact</a></Link>
             </li>
         </ul>
         </div>
+    
     </div>
   )
 }
