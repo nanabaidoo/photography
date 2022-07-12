@@ -1,9 +1,9 @@
 
-import React from 'react'
+import React from 'react';
 // import { useEffect, useState } from 'react';
 
 // export default function Hero() {
-  const Hero = ({heading, message}) =>{
+  const Hero = ({heading, message}) => {
   return (
     <div className=' flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img'>
       {/* Overlay */}
@@ -14,7 +14,7 @@ import React from 'react'
         <button className='px-8 py-2 border'>Book</button>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Hero;
