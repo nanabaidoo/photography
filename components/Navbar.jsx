@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link href='/'>
         <a><h1>Capture</h1></a>
         </Link>
-        <ul className='hidden lg:flex gap-10 border'>
+        <ul className=' lg:flex gap-10 border'>
             <li>
                 <Link href='/'><a>Home</a></Link>
             </li>
@@ -35,7 +35,7 @@ const Navbar = () => {
             <MenuAlt2Icon className='w-6' />
         </div>
         {/* Mobile Menu*/}
-        <div className={`block fixed  ${toggle?'translate-x-0': 'translate-x-full'} ease-in-out duration-300 top-0 w-1/2 right-0 bg-slate-500 border sm:hidden md:hidden lg:hidden`}>
+        <div className={`block fixed  ${toggle?'translate-x-0': 'translate-x-full'} ease-in-out duration-300 top-0 w-1/2 right-0 bg-cyan-800 border sm:hidden md:hidden lg:hidden`}>
         <ul className='relative h-screen flex flex-col items-center justify-center gap-10'>
             <span className='absolute top-4 right-4 text-2xl font-light' onClick={()=>setToggle(!toggle)}>
                 <XIcon  className='w-6'/>
