@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link href='/'>
         <a><h1>Capture</h1></a>
         </Link>
-        <ul className='lg:flex gap-10 border text-ellipsis'>
+        <ul className='lg:flex gap-10 border'>
             <li>
                 <Link href='/'><a>Home</a></Link>
             </li>
