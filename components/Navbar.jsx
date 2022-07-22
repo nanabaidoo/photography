@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className='fixed  w-full z-20 ease-in duration-300'>
         <div className='w-full  mt-auto lg:flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-        <a><h1>Capture</h1></a>
+        <a><h1></h1></a>
         </Link>
         <ul className='lg:flex gap-10'>
             <li>
