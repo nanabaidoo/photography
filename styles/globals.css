@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* this is to show how the scrolling will be. the scroll bar will be smooth  */
 
 html{
-scroll-behavior: smooth;
+scroll-behavior: smooth; 
 font-family: 'Raleway', sans-serif;
 }
 
