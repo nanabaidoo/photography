@@ -13,7 +13,8 @@ const Navbar = () => {
     <div className='fixed  w-full z-20 ease-in duration-300'>
         <div className='w-full  mt-auto lg:flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-        <a><h1></h1></a>
+    <a img src="https://mdbootstrap.com//img/Photos/Square/1.jpg" className="max-w-full h-auto rounded-full" alt="">
+        </a>
         </Link>
         <ul className='lg:flex gap-10'>
             <li>
